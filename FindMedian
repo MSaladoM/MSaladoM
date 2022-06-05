@@ -1,0 +1,11 @@
+def findMedian(arr):
+    # Write your code here
+    a=sorted(arr)
+    b=int((len(arr)-1)/2)
+    c=a[b]
+    return c
+
+f=[1,5,3,4,2,0,6]
+a=sorted(f)
+b=int((len(a)-1)/2)
+c=a[b]
